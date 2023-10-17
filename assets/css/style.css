@@ -16,12 +16,6 @@ header {
     box-shadow: 0px 3px 10px #464646;
     header{ min-height:50px; }
 }
-#login-icone{
-    width: 46px;
-    height: 44px;
-    background: url(/img/user.png) 0 0;
-    align-items: center;
-  }
 
 .nav-bar {
     display: flex;
@@ -71,6 +65,29 @@ header {
     padding: 1px 1px;
 }
 
+#login-icone{
+    width: 46px;
+    height: 44px;
+    margin: 1px;
+    background: url(/img/user.png) 0 0;
+    align-items: right;
+  } 
+
+.login-button {
+    text-align: center; /* Centralizar horizontalmente */
+}
+
+.login-button img {
+    display: inline; /* Tornar o ícone um elemento inline */
+    vertical-align: middle; /* Alinhar verticalmente com o botão */
+    margin-right: 5px; /* Espaçamento à direita do ícone */
+}
+
+.login-button button {
+    display: inline; /* Tornar o botão um elemento inline */
+    vertical-align: middle; /* Alinhar verticalmente com o ícone */
+}
+
 .login-button button {
     border: none;
     padding: 10px 15px;
@@ -86,6 +103,8 @@ header {
     font-size: 1.1rem;
     
 }
+
+
 
 .mobile-menu-icon {
     display: none;
