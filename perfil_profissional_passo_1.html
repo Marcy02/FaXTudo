@@ -3,33 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" type="text/css" href="assets/css/pp.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/pp.css">
-    <title>FaXtudo | Cadastro</title>
+    <title>FaXTudo | Perfil</title>
     <link rel="icon" type="icon" href="img/logo32x32.png">
-
 </head>
 
 <body>
+    <!-- Menu de Navegação -->
     <header>
-	<div class="container">
-        	<img src="img/logo.png" alt="logo">
-		<img src="img/user2.png" alt="user_ico"><a href="html/user_page.html">$USER$</a>
-	</div>	
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="img/logo.png" alt="Logo">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item">1-Habilidades</li>
+                    <li class="nav-item">2-Perfil Profissional</li>
+                    <li class="nav-item">3-Contato</li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <img id="login-icone" src="img/user.png" width="1" height="1">
+                <button><a href="#">USER$</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/menu.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item">1-Habilidades</li>
+                <li class="nav-item">2-Perfil Profissional</li>
+                <li class="nav-item">3-Contato</li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">USER$</a></button>
+            </div>
+        </div>
     </header>
-    <div class="menu">
-    	<li>1-Habilidades</li>
-    	<li>2-Perfil Profissional</li>
-    	<li>3-Contato</li>
+    <nav>
 
-    </div>
-    <h2>Seja Ben-Vind@! $USER$</h2>
-
-    <article>
-	<h2>Quais suas Áreas de atuação?</h2>
-        <div class="checkbox-wrapper-61">
+    </nav>
+    <main class="main">
+        <article>
+            <h1 class="frase">Quais suas Áreas de atuação?</h1>
+            
+            <div class="checkbox-wrapper-61">
         <input type="checkbox" class="check" id="hab_1" name="hab_1" value="Design"/>
         <label for="hab_1" class="label">
           <svg width="45" height="45" viewbox="0 0 95 95">
@@ -162,10 +186,19 @@
     <span>Delivery</span>
     </label>
 
+<div id="outer">
+  <div class="button_slide slide_right">CONTINUAR</div>
+  <br/><br/><br/>
+</div>
+            
+        </article>
+    </main>
 
-        <div class="botao">
-            <button type="button">Continuar</button> 
-        </div>
-    </article>
+
+    <section> </section>
+   
+    <footer class="footer">Todos os direitos reservados</footer>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
