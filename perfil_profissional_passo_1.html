@@ -6,24 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>faXtudo - Cadastro de Perfil</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
-    <link rel="stylesheet" href="assets/css/pp.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/pp.css">
 </head>
 
 <body>
     <header>
-        <img src="img/logo.png" alt="logo">
-        <img src="img/user.png" alt="user_ico"><a href="html/user_page.html">$USER$</a>
+	<div class="container">
+        	<img src="img/logo.png" alt="logo">
+		<img src="img/user2.png" alt="user_ico"><a href="html/user_page.html">$USER$</a>
+	</div>	
     </header>
-    <nav value="1" class="menu">
+    <div class="menu">
     	<li>1-Habilidades</li>
     	<li>2-Perfil Profissional</li>
     	<li>3-Contato</li>
-    </nav>  
-    <h1>Seja Ben-Vind@! $USER$</h1>
+    </div>
+    <h2>Seja Ben-Vind@! $USER$</h2>
     <article>
-        <div>
-            <h2>Quais suas Áreas de atuação?</h2>
-            <input type="checkbox" id="hab_1" name="hab_1" value="Design">
+	<h2>Quais suas Áreas de atuação?</h2>
+        <div class="checkbox-wrapper-26">
+
+<div class="checkbox-wrapper-26">
+  <input type="checkbox" id="_checkbox-26">
+  <label for="_checkbox-26">
+    <div class="tick_mark"></div>
+  </label>
+</div>            
+
+<input type="checkbox" id="hab_1" name="hab_1" value="Design">
             <label for="hab_1">Design</label><br>
             <input type="checkbox" id="hab_2" name="hab_2" value="Administrativa">
             <label for="hab_2">Administrativa</label><br>
@@ -48,7 +58,7 @@
             <input type="checkbox" id="hab_12" name="hab_12" value="Delivery">
             <label for="hab_12">Delivery</label><br><br>
         </div>
-        <div>
+        <div class="botao">
             <button type="button">Continuar</button> 
         </div>
     </article>
