@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="assets/css/stylelogin.css">
+    
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="/faxtudo/img/Logo_2_300x169.png" alt="Logo_2_300x169">
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Achar um Profissional</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Recursos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link"> Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="#">Acessar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="/faxtudo/img/menu.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Achar um Profissional</a></li>
+                <li class="nav-item"><a href="#" class="nav-link"> Recursos</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="#">Acessar</a></button>
+            </div>
+        </div>
+    </header>
+    <script src="assets/js/script.js"></script>
+    <main id="container">
+        <form id="login_form">
+            <!-- FORM HEADER -->
+            <div>
+                <h1>LOGIN</h1>
+            </div>
+
+            <!-- SOCIAL MEDIA LINKS -->
+            <div id="social_media">
+                <!-- ICONE FACEBOOK -->
+                <a href="#">
+                    <img src="/faxtudo/img/674-6741868_icone-facebook-redondo-png-removebg-preview.png" alt="674-6741868_icone-facebook-redondo-png-removebg-preview">
+                </a>
+
+                <!-- ICONE GOOGLE -->
+                <a href="#">
+                    <img src="/faxtudo/img/google icone.png" alt="Google logo">
+                </a>
+                <!-- ICONE LIKINDIN -->
+                <a href="#">
+                    <img src="/faxtudo/img/likindin_icone-removebg-preview.png" alt="likindin_icone-removebg-preview">
+                </a>
+            </div>
+            <!-- INPUTS -->
+                <!-- EMAIL -->
+                <div class="input-box">
+                    <label for="email">
+                        E-mail
+                        <div class="input-field">
+                            <input type="email" id="email" name="email">
+                        </div>
+                    </label>
+                </div>
+                
+                <!-- SENHA -->
+                <div class="input-box">
+                    <label for="password">
+                        Senha
+                        <div class="input-field">
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </label>
+                    
+                    <!-- ESQUECEU A SENHA -->
+                    <div id="forgot_password">
+                        <a href="#">
+                            Esqueceu sua Senha?
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BOTÃO DE LOGIN -->
+            <button type="submit" id="login_button">
+                Login
+            </button>
+        </form>
+    </main>
+</body>
+</html>
