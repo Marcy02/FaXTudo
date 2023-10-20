@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+.main-header{
+    display: flex;
+    height: 6.25rem;
+    background-color: #88B257;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li a{
+    padding: 0 1.25rem;
+    text-decoration: none;
+    color: #181817;
+    align-items: center;
+}
+
+main h1{
+    font-size: 5em;
+    color:#274703;
+    
+}
+main h3{
+    font-size: 3em;
+    color: #88B257;
+}
+main p{
+    font-size: 2em;
+    line-height: 1.875em;
+    margin: 1.875em 0;
+}
+.main{
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sec{
+    max-width: 35rem;
+    height: auto;
+}
+
+.section-esquerda{
+    width: 30%;
+}
+
+.botao-comece{
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    color: #274703;
+    padding: 1em 2em;
+    font-weight: 700;
+    border-radius: 3.125rem;
+}
+.botao-acesso{
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    color: #274703;
+    padding: .0800rem 1.6em;
+    font-weight: 1000;
+    border-radius: 3.125rem;
+}
+.main-footer{
+    display: flex;
+    height: 2.25rem;
+    background-color: #88B257;
+    justify-content: space-around;
+    align-items: center;
+}
