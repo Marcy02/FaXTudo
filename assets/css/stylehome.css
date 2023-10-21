@@ -214,7 +214,7 @@ header .fas-bars{
     position: absolute;
     bottom: 3rem; right: 3rem;
     font-size: 6rem;
-    color: #eee;
+    color: #000;
 
 }
 .review .box-container .box .stars i{
@@ -248,7 +248,7 @@ header .fas-bars{
 }
 .review .box-container .box .user span{
     font-size: 1.5rem;
-    color: #999;
+    color: #333;
 }
 .footer .box-container{
     display: flex;
