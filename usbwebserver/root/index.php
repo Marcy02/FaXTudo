@@ -27,7 +27,7 @@
          <a href="about.php">sobre nós</a>
          <a href="jobs.php">Todos os trabalhos</a>
          <a href="contact.php">Contate-nos</a>
-         <a href="login.html">conta</a>
+         <a href="login.php">conta</a>
       </nav>
 
       <a href="#" class="btn" style="margin-top: 0;">postar trabalho</a>
@@ -161,7 +161,7 @@
             <p><i class="fas fa-clock"></i> <span>turno diurno</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.html" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">ver detalhes</a>
             <button type="submit" class="far fa-heart" name="save"></button>
          </div>
       </div>
@@ -182,7 +182,7 @@
             <p><i class="fas fa-clock"></i> <span>turnos flexíveis</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.html" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
@@ -203,7 +203,7 @@
             <p><i class="fas fa-clock"></i> <span>turno da noite</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.html" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
@@ -224,7 +224,7 @@
             <p><i class="fas fa-clock"></i> <span>turno fixo</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.html" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
@@ -245,7 +245,7 @@
             <p><i class="fas fa-clock"></i> <span>turno flexíveis</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.html" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
@@ -266,7 +266,7 @@
             <p><i class="fas fa-clock"></i> <span>turno fixo</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.html" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
@@ -308,8 +308,8 @@
       <div class="box">
          <h3>links extra </h3>
          <a href="#"><i class="fas fa-angle-right"></i> Conta</a>
-         <a href="login.html"><i class="fas fa-angle-right"></i> Login</a>
-         <a href="register.html"><i class="fas fa-angle-right"></i> Registra</a>
+         <a href="login.php"><i class="fas fa-angle-right"></i> Login</a>
+         <a href="register.php"><i class="fas fa-angle-right"></i> Registra</a>
          <a href="#"><i class="fas fa-angle-right"></i> Postar trabalho</a>
          <a href="#"><i class="fas fa-angle-right"></i> Painel</a>
       </div>

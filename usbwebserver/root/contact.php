@@ -20,14 +20,14 @@
 
       <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
-      <a href="index.html" class="logo"><i class="fas fa-briefcase"></i> FaXtudo.</a>
+      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i> FaXtudo.</a>
 
       <nav class="navbar">
-         <a href="index.html">inicio</a>
-         <a href="about.html">sobre nós</a>
-         <a href="jobs.html">Todos os trabalhos</a>
-         <a href="contact.html">Contate-nos</a>
-         <a href="login.html">conta</a>
+         <a href="index.php">inicio</a>
+         <a href="about.php">sobre nós</a>
+         <a href="jobs.php">Todos os trabalhos</a>
+         <a href="contact.php">Contate-nos</a>
+         <a href="login.php">conta</a>
       </nav>
 
       <a href="#" class="btn" style="margin-top: 0;">postar trabalho</a>
@@ -122,18 +122,18 @@
 
       <div class="box">
          <h3>Links Rápidos</h3>
-         <a href="index.html"><i class="fas fa-angle-right"></i> Inicio</a>
-         <a href="about.html"><i class="fas fa-angle-right"></i> Sobre nós</a>
-         <a href="jobs.html"><i class="fas fa-angle-right"></i> Todos os trabalhos</a>
-         <a href="contact.html"><i class="fas fa-angle-right"></i>Contate-nos</a>
+         <a href="index.php"><i class="fas fa-angle-right"></i> Inicio</a>
+         <a href="about.php"><i class="fas fa-angle-right"></i> Sobre nós</a>
+         <a href="jobs.php"><i class="fas fa-angle-right"></i> Todos os trabalhos</a>
+         <a href="contact.php"><i class="fas fa-angle-right"></i>Contate-nos</a>
          <a href="#"><i class="fas fa-angle-right"></i> Pesquisa de filtro</a>
       </div>
 
       <div class="box">
          <h3>links extra </h3>
          <a href="#"><i class="fas fa-angle-right"></i> Conta</a>
-         <a href="login.html"><i class="fas fa-angle-right"></i> Login</a>
-         <a href="register.html"><i class="fas fa-angle-right"></i> Registra</a>
+         <a href="login.php"><i class="fas fa-angle-right"></i> Login</a>
+         <a href="register.php"><i class="fas fa-angle-right"></i> Registra</a>
          <a href="#"><i class="fas fa-angle-right"></i> Postar trabalho</a>
          <a href="#"><i class="fas fa-angle-right"></i> Painel</a>
       </div>
