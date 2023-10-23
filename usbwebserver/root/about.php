@@ -73,7 +73,7 @@
             <i class="fas fa-star-half-alt"></i>
          </div>
          <h3 class="title">resultados surpreendentes</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eum cumque dolor, quisquam perspiciatis consequatur!</p>
+         <p>Gostaria de expressar minha sincera gratidão a FaXtudo por sua generosidade e apoio em um momento difícil. Sua ajuda fez toda a diferença.</p>
          <div class="user">
             <img src="images/pic-1.png" alt="">
             <div>
@@ -92,7 +92,7 @@
             <i class="fas fa-star-half-alt"></i>
          </div>
          <h3 class="title">fácil de usar</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eum cumque dolor, quisquam perspiciatis consequatur!</p>
+         <p>Adoro a diversidade de oportunidades de trabalho que encontro no Faxtudo, super fácil de usar o site. Independentemente da minha especialidade, sempre encontro projetos interessantes que correspondem às minhas habilidades.</p>
          <div class="user">
             <img src="images/pic-2.png" alt="">
             <div>
