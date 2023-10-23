@@ -8,7 +8,7 @@
    --main-color:#88b257;
    --red:red;
    --light-color:#777;
-   --light-bg:#eee;
+   --light-bg:#fff;
    --black:#2c3e50;
    --white:#fff;
    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -148,7 +148,7 @@ section{
    background-color: var(--main-color);
    color: var(--white);
 }
-
+/**home**/
 .home-container{
    background: url('../images/2109.w023.n001.1119B.p1.1119.jpg'), rgba(0,0,0,.7) no-repeat;
    background-size: cover;
