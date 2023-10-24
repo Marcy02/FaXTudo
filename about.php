@@ -20,17 +20,17 @@
 
       <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
-      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i> FaXtudo.</a>
+      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i>FaXtudo.</a>
 
       <nav class="navbar">
-         <a href="index.php">inicio</a>
-         <a href="about.php">sobre nós</a>
-         <a href="jobs.php">Todos os trabalhos</a>
+         <a href="index.php">Inicio</a>
+         <a href="about.php">Sobre Nós</a>
+         <a href="jobs.php">Todos os Trabalhos</a>
          <a href="contact.php">Contate-nos</a>
-         <a href="login.php">conta</a>
+         <a href="login.php">Conta</a>
       </nav>
 
-      <a href="#" class="btn" style="margin-top: 0;">postar trabalho</a>
+      <a href="#" class="btn" style="margin-top: 0;">Postar Trabalho</a>
 
    </section>
 
@@ -40,11 +40,11 @@
 
 <!-- about us section começa  -->
 
-<div class="section-title">sobre nós</div>
+<div class="section-title">Sobre Nós</div>
 
 <section class="about">
 
-   <img src="images/about.jpg" alt="">
+   <img src="images/about.jpg" alt="sobre">
    <div class="box">
       <h3>Porque escolher-nos?</h3>
       <p>Nosso objetivo é fornecer a você uma experiência de busca de serviços que seja conveniente, confiável e eficaz.</p>
@@ -72,13 +72,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3 class="title">resultados surpreendentes</h3>
+         <h3 class="title">Resultados Surpreendentes</h3>
          <p>Gostaria de expressar minha sincera gratidão a FaXtudo por sua generosidade e apoio em um momento difícil. Sua ajuda fez toda a diferença.</p>
          <div class="user">
-            <img src="images/pic-1.png" alt="">
+            <img src="images/pic-1.png" alt="pic-1">
             <div>
                <h3>João</h3>
-               <span>web designer</span>
+               <span>Web Designer</span>
             </div>
          </div>
       </div>
@@ -91,13 +91,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3 class="title">fácil de usar</h3>
+         <h3 class="title">Fácil de Usar</h3>
          <p>Adoro a diversidade de oportunidades de trabalho que encontro no Faxtudo, super fácil de usar o site. Independentemente da minha especialidade, sempre encontro projetos interessantes que correspondem às minhas habilidades.</p>
          <div class="user">
             <img src="images/pic-2.png" alt="">
             <div>
                <h3>Maria Joana</h3>
-               <span>web designer</span>
+               <span>Web Designer</span>
             </div>
          </div>
       </div>
@@ -110,13 +110,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3 class="title">foi selecionado</h3>
+         <h3 class="title">Foi Selecionado</h3>
          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eum cumque dolor, quisquam perspiciatis consequatur!</p>
          <div class="user">
             <img src="images/pic-3.png" alt="">
             <div>
                <h3>Luciano</h3>
-               <span>web designer</span>
+               <span>Web Designer</span>
             </div>
          </div>
       </div>
@@ -129,13 +129,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3 class="title">boa experiência</h3>
+         <h3 class="title">Boa Experiência</h3>
          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eum cumque dolor, quisquam perspiciatis consequatur!</p>
          <div class="user">
             <img src="images/pic-4.png" alt="">
             <div>
                <h3>Ana Maria</h3>
-               <span>web designer</span>
+               <span>Web Designer</span>
             </div>
          </div>
       </div>
@@ -148,13 +148,13 @@
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
          </div>
-         <h3 class="title">ampla variedade</h3>
+         <h3 class="title">Ampla Variedade</h3>
          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eum cumque dolor, quisquam perspiciatis consequatur!</p>
          <div class="user">
             <img src="images/pic-5.png" alt="">
             <div>
                <h3>Marcelo</h3>
-               <span>web designer</span>
+               <span>Web Designer</span>
             </div>
          </div>
       </div>
@@ -173,7 +173,7 @@
             <img src="images/pic-6.png" alt="">
             <div>
                <h3>Rafaela</h3>
-               <span>web designer</span>
+               <span>Web Designer</span>
             </div>
          </div>
       </div>
@@ -201,20 +201,20 @@
 
       <div class="box">
          <h3>Links Rápidos</h3>
-         <a href="index.php"><i class="fas fa-angle-right"></i> inicio</a>
-         <a href="about.php"><i class="fas fa-angle-right"></i> sobre nós</a>
-         <a href="jobs.php"><i class="fas fa-angle-right"></i> Todos os trabalhos</a>
+         <a href="index.php"><i class="fas fa-angle-right"></i>Início</a>
+         <a href="about.php"><i class="fas fa-angle-right"></i>Sobre Nós</a>
+         <a href="jobs.php"><i class="fas fa-angle-right"></i>Todos os Trabalhos</a>
          <a href="contact.php"><i class="fas fa-angle-right"></i>Contate-nos</a>
-         <a href="#"><i class="fas fa-angle-right"></i> Pesquisa de filtro</a>
+         <a href="#"><i class="fas fa-angle-right"></i>Pesquisa de Filtro</a>
       </div>
 
       <div class="box">
-         <h3>links extras</h3>
-         <a href="#"><i class="fas fa-angle-right"></i> Conta</a>
-         <a href="login.php"><i class="fas fa-angle-right"></i> Login</a>
-         <a href="register.php"><i class="fas fa-angle-right"></i> Registra</a>
-         <a href="#"><i class="fas fa-angle-right"></i> Postar trabalho</a>
-         <a href="#"><i class="fas fa-angle-right"></i> Painel</a>
+         <h3>Links Extras</h3>
+         <a href="#"><i class="fas fa-angle-right"></i>Conta</a>
+         <a href="login.php"><i class="fas fa-angle-right"></i>Login</a>
+         <a href="register.php"><i class="fas fa-angle-right"></i>Registra</a>
+         <a href="#"><i class="fas fa-angle-right"></i>Postar Trabalho</a>
+         <a href="#"><i class="fas fa-angle-right"></i>Painel</a>
       </div>
 
       <div class="box">

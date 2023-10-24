@@ -20,17 +20,17 @@
 
       <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
-      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i> FaXtudo.</a>
+      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i>FaXtudo.</a>
 
       <nav class="navbar">
-         <a href="index.php">inicio</a>
-         <a href="about.php">sobre nós</a>
-         <a href="jobs.php">Todos os trabalhos</a>
+         <a href="index.php">Início</a>
+         <a href="about.php">Sobre Nós</a>
+         <a href="jobs.php">Todos os Trabalhos</a>
          <a href="contact.php">Contate-nos</a>
-         <a href="login.php">conta</a>
+         <a href="login.php">Conta</a>
       </nav>
 
-      <a href="#" class="btn" style="margin-top: 0;">postar trabalho</a>
+      <a href="#" class="btn" style="margin-top: 0;">Postar Trabalho</a>
 
    </section>
 
@@ -46,9 +46,9 @@
 
       <form action="" method="post">
          <h3>Encontre seu próximo emprego</h3>
-         <p>Cargo <span>*</span></p>
+         <p>Cargo<span>*</span></p>
          <input type="text" name="title" placeholder="palavra-chave, categoria ou empresa" required maxlength="20" class="input">
-         <p>Local de trabalho</p>
+         <p>Local de Trabalho</p>
          <input type="text" name="location" placeholder="cidade, estado ou país" required maxlength="50" class="input">
          <input type="submit" value="procurar emprego" name="search" class="btn">
       </form>
@@ -63,71 +63,71 @@
 
 <section class="category">
 
-   <h1 class="heading">categorias de trabalho</h1>
+   <h1 class="heading">Categorias de Trabalho</h1>
 
    <div class="box-container">
 
       <a href="#" class="box">
          <i class="fas fa-code"></i>
          <div>
-            <h3>development</h3>
-            <span>2200 empregos</span>
+            <h3>Development</h3>
+            <span>2200 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-pen"></i>
          <div>
-            <h3>designer</h3>
-            <span>500 empregos</span>
+            <h3>Designer</h3>
+            <span>500 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-chalkboard-user"></i>
          <div>
-            <h3>teacher</h3>
-            <span>1500 empregos</span>
+            <h3>Teacher</h3>
+            <span>1500 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-bullhorn"></i>
          <div>
-            <h3>marketing</h3>
-            <span>1200 empregos</span>
+            <h3>Marketing</h3>
+            <span>1200 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-headset"></i>
          <div>
-            <h3>service</h3>
-            <span>3100 empregos</span>
+            <h3>Service</h3>
+            <span>3100 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-wrench"></i>
          <div>
-            <h3>engineer</h3>
-            <span>400 empregos</span>
+            <h3>Engineer</h3>
+            <span>400 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-hand-holding-dollar"></i>
          <div>
-            <h3>finance</h3>
-            <span>1000 empregos</span>
+            <h3>Finance</h3>
+            <span>1000 Empregos</span>
          </div>
       </a>
 
       <a href="#" class="box">
          <i class="fas fa-person-digging"></i>
          <div>
-            <h3>labour</h3>
-            <span>4000 empregos</span>
+            <h3>Labour</h3>
+            <span>4000 Empregos</span>
          </div>
       </a>
 
@@ -141,27 +141,27 @@
 
 <section class="jobs-container">
 
-   <h1 class="heading">últimos empregos</h1>
+   <h1 class="heading">Últimos Empregos</h1>
 
    <div class="box-container">
 
       <div class="box">
          <div class="company">
-            <img src="images/icon-1.png" alt="">
+            <img src="images/icon-1.png" alt="icon-1">
             <div>
                <h3>IT infosys co.</h3>
                <p>2 dias atrás</p>
             </div>
          </div>
-         <h3 class="job-title">senior web desenvolvedor</h3>
-         <p class="location"><i class="fas fa-map-marker-alt"></i> <span>mumbai, india</span></p>
+         <h3 class="job-title">Senior Web Desenvolvedor</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Mumbai, India</span></p>
          <div class="tags">
             <p><i class="fas fa-indian-rupee-sign"></i> <span>10k - 25k</span></p>
-            <p><i class="fas fa-briefcase"></i> <span>tempo parcial</span></p>
-            <p><i class="fas fa-clock"></i> <span>turno diurno</span></p>
+            <p><i class="fas fa-briefcase"></i> <span>Tempo parcial</span></p>
+            <p><i class="fas fa-clock"></i> <span>Turno diurno</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.php" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">Ver detalhes</a>
             <button type="submit" class="far fa-heart" name="save"></button>
          </div>
       </div>
@@ -170,19 +170,19 @@
          <div class="company">
             <img src="images/icon-2.png" alt="">
             <div>
-               <h3>all media ltd</h3>
+               <h3>All media ltd</h3>
                <p>2 dias atrás</p>
             </div>
          </div>
-         <h3 class="job-title">desenvolvedor qualificado</h3>
-         <p class="location"><i class="fas fa-map-marker-alt"></i> <span>mumbai, india</span></p>
+         <h3 class="job-title">Desenvolvedor qualificado</h3>
+         <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Mumbai, India</span></p>
          <div class="tags">
             <p><i class="fas fa-indian-rupee-sign"></i> <span>9000</span></p>
-            <p><i class="fas fa-briefcase"></i> <span>tempo integral</span></p>
-            <p><i class="fas fa-clock"></i> <span>turnos flexíveis</span></p>
+            <p><i class="fas fa-briefcase"></i> <span>Tempo integral</span></p>
+            <p><i class="fas fa-clock"></i> <span>Turnos flexíveis</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.php" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">Ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
@@ -191,32 +191,32 @@
          <div class="company">
             <img src="images/icon-3.png" alt="">
             <div>
-               <h3>software solutions</h3>
-               <p>postado hoje</p>
+               <h3>Software Solutions</h3>
+               <p>Postado hoje</p>
             </div>
          </div>
          <h3 class="job-title">javascript desenvolvedor</h3>
-         <p class="location"><i class="fas fa-map-marker-alt"></i> <span>mumbai, india</span></p>
+         <p class="location"><i class="fas fa-map-marker-alt"></i> <span>Mumbai, India</span></p>
          <div class="tags">
             <p><i class="fas fa-indian-rupee-sign"></i> <span>1 mil - 5 mil</span></p>
-            <p><i class="fas fa-briefcase"></i> <span>estágio</span></p>
-            <p><i class="fas fa-clock"></i> <span>turno da noite</span></p>
+            <p><i class="fas fa-briefcase"></i> <span>Estágio</span></p>
+            <p><i class="fas fa-clock"></i> <span>Turno da noite</span></p>
          </div>
          <div class="flex-btn">
-            <a href="view_job.php" class="btn">ver detalhes</a>
+            <a href="view_job.php" class="btn">Ver detalhes</a>
             <button class="far fa-heart"></button>
          </div>
       </div>
 
       <div class="box">
          <div class="company">
-            <img src="images/icon-4.png" alt="">
+            <img src="images/icon-4.png" alt="icon-4">
             <div>
                <h3>IT world</h3>
                <p>19 dias atrás</p>
             </div>
          </div>
-         <h3 class="job-title">junior front-end</h3>
+         <h3 class="job-title">Junior Front-end</h3>
          <p class="location"><i class="fas fa-map-marker-alt"></i> <span>mumbai, india</span></p>
          <div class="tags">
             <p><i class="fas fa-indian-rupee-sign"></i> <span>1 mil - 5 mil</span></p>

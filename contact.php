@@ -20,17 +20,17 @@
 
       <div id="menu-btn" class="fas fa-bars-staggered"></div>
 
-      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i> FaXtudo.</a>
+      <a href="index.php" class="logo"><i class="fas fa-briefcase"></i>FaXtudo.</a>
 
       <nav class="navbar">
-         <a href="index.php">inicio</a>
-         <a href="about.php">sobre nós</a>
-         <a href="jobs.php">Todos os trabalhos</a>
+         <a href="index.php">Inicio</a>
+         <a href="about.php">Sobre Nós</a>
+         <a href="jobs.php">Todos os Trabalhos</a>
          <a href="contact.php">Contate-nos</a>
-         <a href="login.php">conta</a>
+         <a href="login.php">Conta</a>
       </nav>
 
-      <a href="#" class="btn" style="margin-top: 0;">postar trabalho</a>
+      <a href="#" class="btn" style="margin-top: 0;">Postar Trabalho</a>
 
    </section>
 
@@ -48,47 +48,47 @@
 
       <div class="box">
          <i class="fas fa-phone"></i>
-         <a href="tel:1234567890">27 99999-9999</a>
-         <a href="tel:1112223333">(27) 3333-3333</a>
+         <a href="tel:1234567890">(27) 99999-9999</a>
+         <a href="tel:1112223333">(27) 3320-5500</a>
       </div>
 
       <div class="box">
          <i class="fas fa-envelope"></i>
-         <a href="mailto:shaikhanas@gmail.com">exemploemail@gmail.com</a>
-         <a href="mailto:anasbhai@gmail.com">exemploemail@gmail.com</a>
+         <a href="mailto:faxtudo.pi@gmail.com">faxtudo.pi@gmail.com</a>
+         <a href="mailto:contac@faxtudo.com.br">contac@faxtudo.com.br</a>
       </div>
 
       <div class="box">
          <i class="fas fa-map-marker-alt"></i>
-         <a href="#">flat no. 1, a-1 building, jogeshwari, Brasil, Espírito Santo - 0000000</a>
+         <a href="#">Flat nº 1, Rua A-1, Ed. Jardins, Brasil, Serra/ES - 29150-00</a>
       </div>
 
    </div>
 
    <form action="" method="post">
-      <h3>deixe sua mensagem</h3>
+      <h3>Deixe sua mensagem</h3>
       <div class="flex">
          <div class="box">
-            <p>name <span>*</span></p>
+            <p>Nome <span>*</span></p>
             <input type="text" name="name" required maxlength="20" placeholder="Seu Nome" class="input">
          </div>
          <div class="box">
-            <p>email <span>*</span></p>
+            <p>E-mail <span>*</span></p>
             <input type="email" name="email" required maxlength="50" placeholder="Seu email" class="input">
          </div>
          <div class="box">
-            <p>number <span>*</span></p>
+            <p>Numero <span>*</span></p>
             <input type="number" name="number" required min="0" max="9999999999" maxlength="20" placeholder="Seu número" class="input">
          </div>
          <div class="box">
             <p>Seu cargo <span>*</span></p>
             <select name="role" required class="input">
-               <option value="employee">candidato a emprego (empregado)</option>
-               <option value="employeer">provedor de emprego (empregador)</option>
+               <option value="employee">Candidato a Emprego (Empregado)</option>
+               <option value="employeer">Provedor de Emprego (Empregador)</option>
             </select>
          </div>
       </div>
-      <p>mensagem <span>*</span></p>
+      <p>Mensagem <span>*</span></p>
       <textarea name="message" class="input" required maxlength="1000" placeholder="Deixe sua mensagem" cols="30" rows="10"></textarea>
       <input type="submit" value="Enviar mensagem" name="send" class="btn">
    </form>
