@@ -1,2 +1,0 @@
-# FaXTudo
- Projeto Integrador - Frontend
