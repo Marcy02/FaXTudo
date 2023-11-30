@@ -1,8 +1,0 @@
-header.php => Adiconado Logo.
-login.php => btn-site no Botão Entrar.
-registro_usuario.php => btn-site no Botão Registrar.
-sobre.php => remover botão "contate-nos".
-registro_emprego.php => btn-site no Botão Cadastrar.
-header.php => Mudei de "Vagas Abertas" para "Propostas Abertas".
-tabela_css.php => BOTÃO “VER DETALHES” MELHORAR CSS class “btn-site”.
-detalha_job.php => BOTÃO “VOLTAR” MELHORAR CSS class “btn-site”.
