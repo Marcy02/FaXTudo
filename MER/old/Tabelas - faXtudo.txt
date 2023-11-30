@@ -1,0 +1,50 @@
+COLLATION = UTF16_UNICODE_CI
+
+TABELAS:
+
+EMPREGOS:
+-id
+-contratante = (-cnpj ou -cpf)
+-dt_cadastro = (+dias decorridos)
+-vaga = (-cargo, -descrição do cargo)
+-local = (-cidade, -estado e -país)
+-salario
+-jornada
+-turno
+-beneficios
+-requerimentos necessários
+-qualificação necessária = ("Nível de Educação")
+-habilidades requeridas
+-sobre o contratante = (descrição)
+-categoria = ("Tipo de Emprego")
+// FORA POR ENQUANTO: -aceitar ou negar candidatos
+	-limitar número de candidatos cadastrados
+	+favoritada por usuário (salva)
+	+detalhada
+
+USUÁRIOS:
+-id
+-nome
+-email
+-senha
+-tel
+-dt_nascimento
+-cpf ou -cnpj
+-local = (-cidade, -estado e -país)
+-especialidade
+-se cadastrar a vagas
+
+// FORA POR ENQUANTO:
+	-favoritar vagas
+	-rejeitar vagas
+	--cadastrar EMPREGOS
+
+
+CONTATOS:
+-id
+-nome
+-email
+-número
+-cargo
+-tipo de usuário
+-mensagem

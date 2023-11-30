@@ -1,0 +1,39 @@
+[TABELA = emprego]
+id = int
+cargo = varchar(200) --> @@@
+cat_cargo = varchar(100) => [CATEGORIA DO CARGO] --> %@%
+desc_cargo = text => [DESCRIÇÃO DO CARGO]
+dt_cadastro = date => [DATA DO CADASTRO]
+salario = double
+jornada = varchar(100) --> Horas por Semana
+turno = varchar(100)
+requerimentos = varchar(200)
+qualificao_min = varchar(200)
+habilidades = varchar(200)
+n_vagas = int => [NÚMERO DE VAGAS]
+cep = int(8)
+bairro = varchar(100)
+cidade = varchar(100)
+uf = varchar(100)
+pais = varchar(100)
+FK_USUARIO_id = int
+
+[TABELA = publica]
+fk_USUARIO_id = int
+fk_EMPREGO_id = int
+aprovado = boolean
+
+[TABELA = usuario]
+id = int
+cnpj_cpf = int(14)
+nome = varchar(200)
+email = varchar(200)
+senha = varchar(512)
+tel = int(13)
+dt_nasc = date  => [DATA DE NASCIMENTO]
+especialidade = varchar(100)
+cep = int(8)
+bairro = varchar(100)
+cidade = varchar(100)
+estado = varchar(100)
+pais = varchar(100)

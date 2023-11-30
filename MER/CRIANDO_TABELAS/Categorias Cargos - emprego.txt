@@ -1,0 +1,10 @@
+Ciência
+Artes
+Técnicos de Nível Médio
+Administrativo
+Comercial
+Agropecuário
+Industrial
+Serviço
+Manutenção
+Reparação
